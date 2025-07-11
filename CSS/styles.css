@@ -1,0 +1,93 @@
+ /*  This is an CSS Comment
+CSS - Cascading Style Sheets, is used to style and format web pages created with HTML.
+
+CSS can be added to HTML documents i 3 ways
+1) Inline CSS 
+    Using only 1 line, I style my HTML..(USING ATTRIBUTE,KEY VALUE PAIR)
+    <h1 style = "color: red; background-color:black;" >Hello </h1>
+
+2) Internal CSS
+     Using the style tag inside the HTML page..    
+    <h1 style="color: black;"> Internal CSS: </h1>
+   
+    <style>
+        h1{
+            color: rgb(255, 0, 217);
+        }
+        h2{
+            color: blueviolet;
+        }
+    </style>
+
+    <h1>Heyyy!!</h1>
+    <h2>Wassup bruh</h1>
+
+3) External CSS
+    Creating an external CSS file and applying my css there in order to have clean and easy work..
+
+CSS Selectors
+
+Element Selector: If I directly select the element and change its style then its element selector.
+
+Class Selector: If my HTML file has more than one same element, we give the class name to the element and access in styles using the class name. 
+                where class is the attribute and it contains the value..
+
+Id Selector
+
+Universal Selector: "*" is universal, which applies for all HTML tag
+ *{
+        color: rgb(255, 0, 208);
+    }
+
+
+
+
+Element Selector:
+
+h1{
+    color: rgb(216, 52, 52);
+}
+p{
+    color: rgb(185, 27, 161);
+}
+
+Class Selector:  <h1 class = "one">Heyyy!</h1>
+                 .one{
+    color: red;
+  }  
+
+
+ Id Selector:  "id" should be unique.. "class" need not to be unique
+  <h1 id = "two">How are you?</h1>
+   #two{
+    color: blue;
+  }
+
+   .one{
+    color: red;
+  }  
+  #two{
+    color: blue;
+  }
+
+
+ CSS Box Model :
+ 
+The CSS box model is essential a box thata wraps around every HTML element.
+It consists of 
+   Margins
+   Borders
+   Padding
+   Content
+
+Display Property:
+
+Inline -> Same Line, fill the size of the Content, cannot set width and Height.
+Inline-Block -> Same, line, fill the size of entire width we can set width and Height.
+Block -> Different line, fill the size of entire width we can set height and width.
+None -> This will Hide the element from the html
+
+
+
+
+
